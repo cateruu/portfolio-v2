@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "NextJS",
+    "image": "/skills/nextjs.svg"
+  },
+  {
+    "id": 2,
+    "name": "React",
+    "image": "/skills/react.svg"
+  },
+  {
+    "id": 3,
+    "name": "Redux Toolkit",
+    "image": "/skills/redux.svg"
+  },
+  {
+    "id": 4,
+    "name": "TypeScript",
+    "image": "/skills/typescript.svg"
+  },
+  {
+    "id": 5,
+    "name": "JavaScript",
+    "image": "/skills/javascript.svg"
+  },
+  {
+    "id": 6,
+    "name": "Firebase",
+    "image": "/skills/firebase.svg"
+  },
+  {
+    "id": 7,
+    "name": "Git",
+    "image": "/skills/git.svg"
+  },
+  {
+    "id": 8,
+    "name": "Sass",
+    "image": "/skills/sass.svg"
+  },
+  {
+    "id": 9,
+    "name": "CSS3",
+    "image": "/skills/css.svg"
+  },
+  {
+    "id": 10,
+    "name": "HTML5",
+    "image": "/skills/html.svg"
+  },
+  {
+    "id": 11,
+    "name": "Figma",
+    "image": "/skills/figma.svg"
+  }
+]

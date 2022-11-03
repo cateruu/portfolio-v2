@@ -6,16 +6,18 @@
   background-color: $bg-about;
   padding: 20px;
   border-radius: 20px;
+  z-index: 10000;
 }
 
 .header {
   font-size: $font-header;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }

@@ -3,4 +3,16 @@
   gap: 40px;
   width: 90%;
   margin: 0 auto;
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  right: 25%;
+  top: -50%;
+  width: 200px;
+  height: 350px;
+  background: rgba(147, 86, 30, 0.55);
+  filter: blur(80px);
+  transform: rotate(30deg);
 }

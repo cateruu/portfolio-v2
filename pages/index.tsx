@@ -23,6 +23,7 @@ const Home = () => {
         <section className={styles.container}>
           <About />
           <Skills />
+          <div className={styles.blur}></div>
         </section>
       </main>
     </>

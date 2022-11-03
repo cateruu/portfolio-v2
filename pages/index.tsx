@@ -1,4 +1,5 @@
 import Head from 'next/head';
+
 import Landing from '../components/Landing/Landing';
 import Projects from '../components/Projects/Projects';
 import styles from '../styles/Home.module.scss';

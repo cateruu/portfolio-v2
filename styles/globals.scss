@@ -8,6 +8,11 @@ body {
   font-family: 'Roboto Mono', monospace;
   background-color: $bg-main;
   overflow-x: hidden;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {

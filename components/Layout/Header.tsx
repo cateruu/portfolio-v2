@@ -8,13 +8,13 @@ const Header = () => {
     <header className={styles.header}>
       <h1 className={styles.name}>Paweł Kromołowski</h1>
       <nav>
-        <Link href='#projects' className={styles.link}>
+        <Link href='#projects' className={styles.link} scroll={false}>
           Projects
         </Link>
-        <Link href='#about' className={styles.link}>
+        <Link href='#about' className={styles.link} scroll={false}>
           About
         </Link>
-        <Link href='#skills' className={styles.link}>
+        <Link href='#skills' className={styles.link} scroll={false}>
           Skills
         </Link>
       </nav>

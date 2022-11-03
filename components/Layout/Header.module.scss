@@ -1,0 +1,35 @@
+@use '../../styles/variables' as *;
+
+.header {
+  padding: 20px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(10px);
+  z-index: 100000;
+}
+
+.name {
+  font-size: $font-header;
+}
+
+.link {
+  margin: 0 20px;
+  font-size: $font-header-link;
+  transition: 0.16s;
+
+  &:hover {
+    text-shadow: 0 0 30px #65a3ff;
+  }
+}
+
+.icon {
+  font-size: $font-header-icon;
+  margin: 0 10px;
+  color: $font-color-link;
+}

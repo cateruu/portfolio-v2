@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import useSWR from 'swr';
 import Project from './Project';
 
@@ -29,9 +30,18 @@ const Projects = () => {
       <h2 className={styles.header}>Projects</h2>
       <section className={styles.container}>
         {projects.map((project) => (
-          <Project data={project} />
+          <Project key={project.id} data={project} />
         ))}
       </section>
+      <Link
+        href='https://github.com/cateruu'
+        target='_blank'
+        rel='noopener'
+        className={styles.link}
+      >
+        Check rest of my projects
+      </Link>
+      <div className={styles.blur}></div>
     </section>
   );
 };

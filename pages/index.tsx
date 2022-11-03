@@ -18,6 +18,7 @@ const Home = () => {
       <main>
         <Landing />
         <Projects />
+        <section className={styles.container}></section>
       </main>
     </>
   );

@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import About from '../components/About/About';
 
 import Landing from '../components/Landing/Landing';
 import Projects from '../components/Projects/Projects';
+import Skills from '../components/Skills/Skills';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
@@ -18,7 +20,10 @@ const Home = () => {
       <main>
         <Landing />
         <Projects />
-        <section className={styles.container}></section>
+        <section className={styles.container}>
+          <About />
+          <Skills />
+        </section>
       </main>
     </>
   );

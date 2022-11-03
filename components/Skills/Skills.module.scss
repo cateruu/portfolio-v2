@@ -1,0 +1,21 @@
+@use '../../styles/variables' as *;
+
+.skills {
+  height: auto;
+  width: 40%;
+  background-color: $bg-about;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.header {
+  font-size: $font-header;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -1,0 +1,19 @@
+@use '../../styles/variables' as *;
+
+.about {
+  width: 60%;
+  background-color: $bg-about;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.header {
+  font-size: $font-header;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: $font-about;
+}

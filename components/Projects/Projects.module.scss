@@ -1,0 +1,12 @@
+@use '../../styles/variables' as *;
+
+.projects {
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  font-size: $font-header;
+}

@@ -13,6 +13,7 @@ export type Project = {
   stack: string;
   live: string;
   code: string;
+  image: string;
 };
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());

@@ -61,13 +61,18 @@
   }
 }
 
-.image {
+.imageContainer {
   width: 40%;
-  flex-basis: auto;
+  height: auto;
   border-radius: 20px;
-  background-color: $font-color-link;
-  text-align: center;
-  display: grid;
-  align-items: center;
-  font-size: 5rem;
+}
+
+.imageContainer > span {
+  position: unset !important;
+}
+
+.image {
+  border-radius: 20px;
+  object-fit: cover;
+  position: relative !important;
 }

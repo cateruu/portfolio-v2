@@ -7,7 +7,8 @@
     "purpose": "Purpose of this app was to better understand the process of developing larger scale projects and learn TypeScript.",
     "stack": "NextJS, React, TypeScript, Redux Toolkit, Firebase, Auth0, CSS Modules.",
     "live": "https://social-app-phi.vercel.app/",
-    "code": "https://github.com/cateruu/social-app"
+    "code": "https://github.com/cateruu/social-app",
+    "image": "/projects/social.png"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "purpose": "Purpose of this app was to learn Server Side Rendering and API calls handling in NextJS.",
     "stack": "NextJS, React, TypeScript, CSS Modules.",
     "live": "https://f1-info.vercel.app/",
-    "code": "https://github.com/cateruu/F1-info"
+    "code": "https://github.com/cateruu/F1-info",
+    "image": "/projects/f1-info.png"
   },
   {
     "id": 3,
@@ -27,6 +29,7 @@
     "purpose": "Main goal of this app was to learn Redux Toolkit and get familiar with React Router and Framer Motion.",
     "stack": "React, React Router, Redux Tookit, Framer Motion, CSS Modules.",
     "live": "https://fruitshopp.netlify.app/",
-    "code": "https://github.com/cateruu/shop"
+    "code": "https://github.com/cateruu/shop",
+    "image": "/projects/shop.png"
   }
 ]

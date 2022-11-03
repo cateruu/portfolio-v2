@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './Project.module.scss';
 import { Project } from './Projects';
 
@@ -37,7 +38,14 @@ const Project = ({ data }: Props) => {
         <p className={styles.text}>{data.purpose}</p>
         <p className={styles.text}>{data.stack}</p>
       </section>
-      <section className={styles.image}>{data.name}</section>
+      <section className={styles.imageContainer}>
+        <Image
+          src={data.image}
+          alt={data.name}
+          layout='fill'
+          className={styles.image}
+        />
+      </section>
     </article>
   );
 };

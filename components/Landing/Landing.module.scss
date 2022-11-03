@@ -1,0 +1,49 @@
+.landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.proffesion {
+  font-size: 5rem;
+  background: radial-gradient(
+      88.02% 6604.08% at 114.33% 129.66%,
+      #7b198c 0%,
+      rgba(163, 33, 185, 0) 100%
+    ),
+    radial-gradient(
+      295.72% 5724.91% at -10.31% 296.9%,
+      #2288b4 0%,
+      rgba(34, 136, 180, 0) 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  z-index: 100;
+}
+
+.blurP {
+  position: absolute;
+  right: 50px;
+  top: 30%;
+  height: 500px;
+  width: 200px;
+  background-color: #5a1266;
+  border-radius: 100%;
+  filter: blur(100px);
+}
+
+.blurB {
+  position: absolute;
+  left: 0px;
+  top: 80%;
+  height: 600px;
+  width: 200px;
+  transform: rotate(45deg) translateY(-50%);
+  background-color: #124d66;
+  border-radius: 100%;
+  filter: blur(100px);
+}

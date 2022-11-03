@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Landing from '../components/Landing/Landing';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
@@ -13,11 +14,7 @@ const Home = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <section className={styles.landing}>
-          <h2 className={styles.proffesion}>Front-End Developer</h2>
-          <div className={styles.blurP}></div>
-          <div className={styles.blurB}></div>
-        </section>
+        <Landing />
       </main>
     </>
   );

@@ -8,11 +8,11 @@ export default async function handler(
 ) {
   //Find the absolute path of the json directory
   const jsonDirectory = path.join(process.cwd(), 'json');
-  //Read the json data file data.json
+  //Read the json data file projects.json
   const fileContents = await fs.readFile(
     jsonDirectory + '/projects.json',
     'utf8'
   );
-  //Return the content of the data file in json format
+  //Return the content of the projects file in json format
   res.status(200).json(fileContents);
 }

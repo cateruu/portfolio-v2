@@ -7,9 +7,10 @@ import { FaLinkedin, FaGithubSquare, FaEnvelopeSquare } from 'react-icons/fa';
 type Props = {
   type: string;
   isOpen?: boolean;
+  setIsMenuOpen?: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const Socials = ({ type, isOpen }: Props) => {
+const Socials = ({ type, isOpen, setIsMenuOpen }: Props) => {
   return (
     <section className={`${type === 'mobile' ? styles.mobile : ''}`}>
       <Link
@@ -19,6 +20,7 @@ const Socials = ({ type, isOpen }: Props) => {
         className={`${type === 'desktop' ? styles.icon : styles.iconMobile} ${
           isOpen ? styles.open : ''
         }`}
+        onClick={() => setIsMenuOpen!(false)}
       >
         <FaLinkedin />
       </Link>
@@ -29,6 +31,7 @@ const Socials = ({ type, isOpen }: Props) => {
         className={`${type === 'desktop' ? styles.icon : styles.iconMobile} ${
           isOpen ? styles.open : ''
         }`}
+        onClick={() => setIsMenuOpen!(false)}
       >
         <FaGithubSquare />
       </Link>
@@ -37,6 +40,7 @@ const Socials = ({ type, isOpen }: Props) => {
         className={`${type === 'desktop' ? styles.icon : styles.iconMobile} ${
           isOpen ? styles.open : ''
         }`}
+        onClick={() => setIsMenuOpen!(false)}
       >
         <FaEnvelopeSquare />
       </Link>

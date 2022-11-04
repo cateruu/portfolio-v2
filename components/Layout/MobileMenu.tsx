@@ -21,6 +21,7 @@ const MobileMenu = () => {
         href='#projects'
         className={`${styles.linkMobile} ${isMenuOpen ? styles.open : ''}`}
         scroll={false}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         Projects
       </Link>
@@ -28,6 +29,7 @@ const MobileMenu = () => {
         href='#about'
         className={`${styles.linkMobile} ${isMenuOpen ? styles.open : ''}`}
         scroll={false}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         About
       </Link>
@@ -35,10 +37,15 @@ const MobileMenu = () => {
         href='#skills'
         className={`${styles.linkMobile} ${isMenuOpen ? styles.open : ''}`}
         scroll={false}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         Skills
       </Link>
-      <Socials type='mobile' isOpen={isMenuOpen} />
+      <Socials
+        type='mobile'
+        isOpen={isMenuOpen}
+        setIsMenuOpen={setIsMenuOpen}
+      />
     </div>
   );
 };

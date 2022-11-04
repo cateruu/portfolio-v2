@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import styles from './Header.module.scss';
 
-import { FaLinkedin, FaGithubSquare, FaEnvelopeSquare } from 'react-icons/fa';
+import MobileMenu from './MobileMenu';
+import Socials from './Socials';
 
 const Header = () => {
   return (
@@ -18,27 +19,8 @@ const Header = () => {
           Skills
         </Link>
       </nav>
-      <section>
-        <a
-          href='https://www.linkedin.com/in/pawelkrml/'
-          target='_blank'
-          rel='noopener'
-          className={styles.icon}
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          href='https://github.com/cateruu'
-          target='_blank'
-          rel='noopener'
-          className={styles.icon}
-        >
-          <FaGithubSquare />
-        </a>
-        <a href='mailto:pawelkrml@gmail.com' className={styles.icon}>
-          <FaEnvelopeSquare />
-        </a>
-      </section>
+      <Socials type='desktop' />
+      <MobileMenu />
     </header>
   );
 };

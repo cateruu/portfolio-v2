@@ -1,0 +1,36 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins/viewports' as *;
+
+.icon {
+  font-size: $font-header-icon;
+  margin: 0 10px;
+  color: $font-color-link;
+
+  @include tablet {
+    font-size: $font-header-icon-tablet;
+  }
+
+  @include mobileM {
+    display: none;
+  }
+}
+
+.mobile {
+  margin-top: 10px;
+}
+
+.iconMobile {
+  position: relative;
+  font-size: $font-header-icon;
+  margin: 0 10px;
+  color: $font-color-main;
+  opacity: 0;
+  transition: 0.2s;
+  pointer-events: none;
+
+  &.open {
+    transition-delay: 0.45s;
+    opacity: 1;
+    pointer-events: all;
+  }
+}

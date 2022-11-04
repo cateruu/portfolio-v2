@@ -14,7 +14,7 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 const Skills = () => {
   const { data, error } = useSWR('/api/skills', fetcher);
 
-  if (error) return <div>Unable to load projects...</div>;
+  if (error) return <div>Unable to load skills...</div>;
   if (!data) return <div>Loading...</div>;
 
   const skills: Skill[] = JSON.parse(data);
@@ -28,8 +28,8 @@ const Skills = () => {
             key={skill.id}
             src={skill.image}
             alt={skill.name}
-            width={70}
-            height={70}
+            width={60}
+            height={60}
           />
         ))}
       </section>

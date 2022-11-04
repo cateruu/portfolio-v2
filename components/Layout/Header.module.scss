@@ -17,6 +17,10 @@
   @include tablet {
     padding: 20px 60px;
   }
+
+  @include mobileS {
+    padding: 20px;
+  }
 }
 
 .name {

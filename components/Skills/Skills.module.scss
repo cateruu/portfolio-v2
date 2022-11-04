@@ -20,6 +20,7 @@
   margin-bottom: 60px;
 
   @include mobileL {
+    font-size: $font-header-tablet;
     margin-bottom: 30px;
   }
 }

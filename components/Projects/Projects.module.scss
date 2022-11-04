@@ -39,6 +39,14 @@
 
   &:hover {
     text-shadow: 0 0 20px #fff;
+
+    @include mobileS {
+      text-shadow: 0 0 12px #fff;
+    }
+  }
+
+  @include mobileS {
+    font-size: $font-project-mobile;
   }
 }
 

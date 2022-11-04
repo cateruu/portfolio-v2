@@ -30,6 +30,28 @@
   @include mobileL {
     font-size: 3.5rem;
   }
+
+  @include mobile {
+    text-align: center;
+    font-size: 4rem;
+    background: radial-gradient(
+        61.67% 7661.25% at 78.41% 309.47%,
+        #7b198c 0%,
+        rgba(163, 33, 185, 0) 100%
+      ),
+      radial-gradient(
+        1823.99% 3812.76% at 24.35% -125.76%,
+        #2288b4 0%,
+        rgba(34, 136, 180, 0) 100%
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  @include mobileS {
+    font-size: 3rem;
+  }
 }
 
 .blurP {
@@ -41,6 +63,11 @@
   background-color: #5a1266;
   border-radius: 100%;
   filter: blur(100px);
+
+  @include mobile {
+    right: 25%;
+    top: 60%;
+  }
 }
 
 .blurB {
@@ -56,5 +83,14 @@
 
   @include mobileL {
     left: -20%;
+  }
+
+  @include mobile {
+    width: 100px;
+    height: 400px;
+    filter: blur(70px);
+    transform: rotate(30deg);
+    top: 10%;
+    left: 20%;
   }
 }

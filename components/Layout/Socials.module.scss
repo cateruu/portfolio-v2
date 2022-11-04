@@ -26,9 +26,11 @@
   color: $font-color-main;
   opacity: 0;
   transition: 0.2s;
+  pointer-events: none;
 
   &.open {
     transition-delay: 0.45s;
     opacity: 1;
+    pointer-events: all;
   }
 }

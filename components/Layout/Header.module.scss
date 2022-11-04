@@ -39,14 +39,8 @@
   @include tablet {
     font-size: $font-header-link-tablet;
   }
-}
 
-.icon {
-  font-size: $font-header-icon;
-  margin: 0 10px;
-  color: $font-color-link;
-
-  @include tablet {
-    font-size: $font-header-icon-tablet;
+  @include mobileM {
+    display: none;
   }
 }

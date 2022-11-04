@@ -1,9 +1,16 @@
+@use '../styles/mixins/viewports' as *;
+
 .container {
   display: flex;
   gap: 40px;
   width: 90%;
   margin: 0 auto;
   position: relative;
+
+  @include mobileL {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .blur {
@@ -15,4 +22,8 @@
   background: rgba(147, 86, 30, 0.55);
   filter: blur(80px);
   transform: rotate(30deg);
+
+  @include mobileL {
+    top: 10%;
+  }
 }

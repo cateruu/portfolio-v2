@@ -9,6 +9,10 @@
   padding: 20px;
   display: flex;
   gap: 70px;
+
+  @include mobileL {
+    gap: 20px;
+  }
 }
 
 .textContainer {
@@ -40,6 +44,10 @@
 
   @include tablet {
     font-size: $font-header-tablet;
+  }
+
+  @include mobileL {
+    font-size: $font-header-mobile;
   }
 }
 

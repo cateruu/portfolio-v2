@@ -26,6 +26,10 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   z-index: 100;
+
+  @include mobileL {
+    font-size: 3.5rem;
+  }
 }
 
 .blurP {
@@ -41,7 +45,7 @@
 
 .blurB {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 80%;
   height: 600px;
   width: 200px;
@@ -49,4 +53,8 @@
   background-color: #124d66;
   border-radius: 100%;
   filter: blur(100px);
+
+  @include mobileL {
+    left: -20%;
+  }
 }

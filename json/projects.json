@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "name": "Motoradar",
+    "date": 2022,
+    "description": "Car marketplace that allows people to list or search for used/new cars. ",
+    "purpose": "Learned how to build an app in a group environment. Was responsible for building most of the front-end of the app and firebase integration.",
+    "stack": "NextJS, React, TypeScript, Firebase, SCSS Modules.",
+    "live": "https://motoradar.vercel.app/",
+    "code": "https://github.com/chmery/motoradar",
+    "image": "/projects/motoradar.png"
+  },
+  {
+    "id": 2,
     "name": "Social",
     "date": 2022,
     "description": "Twitter inspiread application with functionality including posts, comments, likes and user accounts.",
@@ -20,16 +31,5 @@
     "live": "https://f1-info.vercel.app/",
     "code": "https://github.com/cateruu/F1-info",
     "image": "/projects/f1-info.png"
-  },
-  {
-    "id": 3,
-    "name": "Fruit Shop",
-    "date": 2022,
-    "description": "Self explenatory app with shopping cart functionality, filters and animations.",
-    "purpose": "Main goal of this app was to learn Redux Toolkit and get familiar with React Router and Framer Motion.",
-    "stack": "React, React Router, Redux Tookit, Framer Motion, CSS Modules.",
-    "live": "https://fruitshopp.netlify.app/",
-    "code": "https://github.com/cateruu/shop",
-    "image": "/projects/shop.png"
   }
 ]

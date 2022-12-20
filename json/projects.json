@@ -4,7 +4,7 @@
     "name": "Motoradar",
     "date": 2022,
     "description": "Car marketplace that allows people to list or search for used/new cars. ",
-    "purpose": "Learned how to build an app in a group environment. Was responsible for building most of the front-end of the app and firebase integration.",
+    "purpose": "Group Project where I learned how to build an app in a group environment. I was responsible for building most of the front-end of the app and firebase integration.",
     "stack": "NextJS, React, TypeScript, Firebase, SCSS Modules.",
     "live": "https://motoradar.vercel.app/",
     "code": "https://github.com/chmery/motoradar",

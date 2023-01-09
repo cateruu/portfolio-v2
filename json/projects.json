@@ -28,8 +28,8 @@
     "description": "Website containing the most valuable information from the world of F1, such as schedule, results and standings.",
     "purpose": "Purpose of this app was to learn Server Side Rendering and API calls handling in NextJS.",
     "stack": "NextJS, React, TypeScript, CSS Modules.",
-    "live": "https://f1-info.vercel.app/",
-    "code": "https://github.com/cateruu/F1-info",
+    "live": "https://f1-info-v2.vercel.app/",
+    "code": "https://github.com/cateruu/F1-info-v2",
     "image": "/projects/f1-info.png"
   }
 ]

@@ -30,6 +30,7 @@ const Skills = () => {
             alt={skill.name}
             width={60}
             height={60}
+            title={skill.name}
           />
         ))}
       </section>

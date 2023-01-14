@@ -46,21 +46,26 @@
   },
   {
     "id": 10,
+    "name": "Tailwind CSS",
+    "image": "/skills/tailwindcss.svg"
+  },
+  {
+    "id": 11,
     "name": "Sass",
     "image": "/skills/sass.svg"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "CSS3",
     "image": "/skills/css.svg"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "HTML5",
     "image": "/skills/html.svg"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Figma",
     "image": "/skills/figma.svg"
   }
